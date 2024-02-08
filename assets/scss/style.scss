@@ -1,0 +1,43 @@
+/*============================================ 
+# Template Name: Wedify
+# Version: 1.0
+# Date: 8/10/2023
+# Author: pixelaxis
+# Author URI: https://themeforest.net/user/pixelaxis
+# Description: Wedify - Wedding HTML Template
+============================================*/
+
+/*============================================ 
+======== Table of Css Content =========
+# Typography
+# Normalize 
+# Global style
+# Header Area
+# Banner Area
+# Section Area
+# Footer Area
+============================================*/
+
+// default font family
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+// CSS Plugin import
+@import "../css/bootstrap.min.css";
+@import "../css/plugins/fontawesome.min.css";
+@import "../css/plugins/nice-select.css";
+@import "../css/plugins/magnific-popup.css";
+@import "../css/plugins/swiper.min.css";
+@import "../css/plugins/jquery-ui-min.css";
+@import "../css/plugins/odometer-min.css";
+@import "../css/plugins/materialicons.css";
+@import "../css/plugins/animate.css";
+
+// Sass Global
+@import "main/_global.scss";
+
+// Pages
+@import "pages/_banner-footer.scss";
+@import "pages/_section.scss";
+
+// Responsive Area
+@import "main/_responsive.scss";

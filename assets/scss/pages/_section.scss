@@ -1,0 +1,3233 @@
+// Features
+.features-section{
+    .single-box{
+        border-radius: 306px;
+        background: rgba(var(--s1), 0.3);
+        width: 100%;
+        &.two{
+            background: rgba(var(--n1), 0.3);
+            .icon-area{
+                background: rgba(var(--n1), 1);
+            }
+        }
+        &.three{
+            background: rgba(var(--n3), 0.3);
+            .icon-area{
+                background: rgba(var(--n3), 1);
+            }
+        }
+        &.four{
+            background: rgba(var(--n2), 0.3);
+            .icon-area{
+                background: rgba(var(--n2), 1);
+            }
+        }
+        &.five{
+            background: rgba(var(--s3), 0.3);
+            .icon-area{
+                background: rgba(var(--s3), 1);
+            }
+        }
+        &.six{
+            background: rgba(var(--s4), 0.3);
+            .icon-area{
+                background: rgba(var(--s4), 1);
+            }
+        }
+    }
+    .icon-area{
+        min-width: 200px;
+        min-height: 200px;
+        border-radius: 100%;
+        background: rgba(var(--s1), 1);
+    }
+    h3{
+        color: rgba(var(--s6), 1);
+    }
+}
+
+// memories-forever
+.memories-forever{
+    .img-area{
+        transition: all 0.8s ease-in-out;
+        &:nth-child(1){
+            bottom: 28px;
+            z-index: 2;
+        }
+        &:nth-child(2){
+            z-index: 1;
+        }
+        &:nth-child(3){
+            top: -120px;
+            z-index: 0;
+        }
+        &:hover{
+            z-index: 3;
+            transform: scale(1.1);
+        }
+    }
+    .shape-area{
+        margin-left: 70px;
+    }
+    .btn-area{
+        right: 60px;
+    }
+}
+
+// wedding listing
+.wedding-listing{
+    background-color: rgba(var(--s3), 0.1);
+    .single-box{
+        box-shadow: var(--shadow-xs);
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: var(--shadow-xl);
+            .info-area{
+                border-color: transparent;
+            }
+        }
+    }
+    .info-area{
+        background-color: rgba(var(--n8), 1);
+    }
+    .img-area img{
+        width: 100%;
+    }
+    .single-item{
+        border-radius: 32px;
+        background: rgba(var(--n7), 1);
+        .icon{
+            width: 24px;
+            height: 24px;
+            border-radius: 24px;
+            background: rgba(var(--p2), 0.1);
+            i{
+                color: rgba(var(--p2), 1);
+            }
+        }
+        .icon-favorite{
+            background: rgba(var(--s3), 1);
+            width: 32px;
+            height: 32px;   
+        }
+        span{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .featured-area{
+        .icon{
+            i{
+                color: rgba(var(--n7), 1);
+            }
+        }
+    }
+    .star-location{
+        i{
+            color: rgba(var(--p2), 1);
+        }
+        .icon-favorite{
+            background: rgba(var(--n3), 0.3);
+            i{
+                color: rgba(var(--p2), 1);
+            }
+        }
+    }
+    .responds{
+        i{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .slider-btn{
+        top: calc(50% - 5px);
+    }
+    &.second{
+        background-color: rgba(var(--n1), 0.3);
+    }
+    &.third{
+        background-color: rgba(var(--n8), 1);
+    }
+    &.fourth{
+        background-color: transparent;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 85%;
+            height: 100%;
+            top: 0;
+            background-color: rgba(var(--n1), 0.3);
+            z-index: -1;
+        }
+    }
+    &.five{
+        &::before {
+            position: absolute;
+            content: "";
+            width: 90%;
+            height: 100%;
+            background-color: rgba(var(--n1), 0.3);
+        }
+        .singleTab{
+            .tabLinks .box-style.box-second{
+                background-color: transparent;
+                color: rgba(var(--p2), 1);
+                &.active{
+                    background-color: rgba(var(--p2), 1);
+                    color: rgba(var(--n8), 1);
+                }
+            }
+        }
+    }
+    &.six{
+        .tabLinks .box-style.box-second{
+            background-color: transparent;
+            color: rgba(var(--p2), 1);
+            &.active{
+                background-color: rgba(var(--p2), 0.1);
+                color: rgba(var(--p2), 1);
+                font-weight: 600;
+            }
+            &:hover{
+                &:before{
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    .abs-icon{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: rgba(var(--n8), 1);
+        z-index: 1;
+        bottom: -28px;
+        right: 25px;
+        &::before {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(var(--s3), 1);
+            width: 80%;
+            height: 80%;
+        }
+    }
+}
+
+// Dream Wedding
+.dream-wedding{
+    .counter-area{
+        background-color: rgba(var(--p2), 1);
+        span{
+            color: rgba(var(--n7), 1);
+        }
+    }
+    .counter-item{
+        border: 1px solid rgba(var(--p2), 1);
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+    }
+    .circle-area{
+        transition: transform 0.5s;
+    }
+    .second{
+        .circle-area{
+            transform: rotate(160deg);
+        }
+    }
+    .main-content{
+        &::before{
+            content: '';
+            position: absolute;
+            width: 150%;
+            height: 150%;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(var(--n1), 1);
+            z-index: -1;
+        }
+    }
+}
+
+// Why choose us
+.why-choose-us{
+    .shape{
+        right: -30%;
+        top: 10%;
+        animation: rotate 50s linear infinite;
+        z-index: -1;
+    }
+    h4{
+        color: rgba(var(--p1), 1);
+        transition: all 0.5s;
+    }
+    .icon-area{
+        min-width: 86px;
+        height: 86px;
+        transition: all 0.5s;
+        border-radius: 50%;
+        background-color: rgba(var(--s1), 0.2);
+    }
+    .single{
+        &:hover{
+            h4{
+                color: rgba(var(--p2), 1);
+            }
+            .icon-area{
+                background: rgba(var(--p2), 1);
+                i{
+                    color: rgba(var(--n8), 1);
+                }
+            }
+        }
+    }
+    &.second{
+        .icon-area{
+            min-width: 60px;
+            height: 60px;
+            background: rgba(var(--p2), 1);
+            i{
+                color: rgba(var(--n8), 1);
+            }
+            &::before{
+                content: "";
+                position: absolute;
+                background: linear-gradient(170deg, #5C263F 0%, rgba(92, 38, 63, 0) 89.8%);
+                bottom: -95px;
+                width: 2px;
+                height: 84px;
+            }
+        }
+        .single{
+            &:last-child{
+                .icon-area{
+                    &::before{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    &.third{
+        .col-xxl-3{
+            &:last-child{
+                .cus-border{
+                    border-color: transparent !important;
+                }
+            }
+        }
+        h4{
+            color: rgba(var(--p2), 1);
+        }
+        .single-box{
+            .icon-wrap{
+                i{
+                    color: rgba(var(--s2), 1);
+                }
+            }
+        }
+    }
+    &.fourth{
+        .display-two{
+            color: rgba(var(--n7), 1);
+            -webkit-text-stroke: 1px rgba(var(--s2), 0.2);
+        }
+        .counter-area{
+            &:hover{
+                span{
+                    color: rgba(var(--s2), 1);
+                }
+            }
+        }
+        .right-area{
+            background-color: rgba(var(--n4), 1);
+            position: absolute;
+            bottom: 120px;
+        }
+        .main-content{
+            width: 60%;
+        }
+    }
+    &.fifth{
+        .shape{
+            right: 15%;
+        }
+        .shape-3{
+            right: 15%;
+        }
+        .sec-img{
+            bottom: 20%;
+            left: 1%;
+        }
+    }
+}
+
+// wedding-vendors
+.wedding-vendors{
+    background-color: rgba(var(--s1), 0.3);
+    .nav-links{
+        background: rgba(var(--s1), 0.1);
+        box-shadow: 0px -1px 0px 0px #D8D8D8, 0px 1px 0px 0px #D8D8D8;
+        transition: all 0.5s;
+        &:hover, &.active{
+            background: rgba(var(--s3), 1);
+            box-shadow: 0px -1px 0px 0px #D8D8D8;
+        }
+        .icon-arrow{
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+            background: rgba(var(--s4), 1);
+        }
+    }
+    &.second{
+        background-color: transparent;
+    }
+    .main-content{
+        margin-top: -370px;
+        &::before{
+            content: '';
+            position: absolute;
+            width: 90%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba(var(--s7), 1);
+            z-index: 0;
+        }
+    }
+}
+
+// planning-wedding
+.planning-wedding{
+    .wedding-planning-carousel {
+        height: 300px;
+    }
+    .line{
+        background: rgba(var(--p2), 1);
+        width: 60px;
+        height: 1px;
+    }
+    .btn-area{
+        a{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .progress-bar {
+        width: 40px;
+        height: 40px;
+        .dot{
+            width: 5px;
+            height: 5px;
+            background: rgba(var(--n6), 1);
+            border-radius: 50%;
+        }
+        .progress-circle {
+            fill: none;
+            stroke: rgba(var(--n6), 1);
+            stroke-width: 5;
+        }
+        .progress {
+            fill: none;
+            stroke: rgba(var(--n6), 1);
+            stroke-width: 5;
+            stroke-dasharray: 0, 100;
+            animation: progressAnimation 2s linear forwards infinite;
+        }
+    }
+    @keyframes progressAnimation {
+        from {
+            stroke-dasharray: 0, 100;
+        }
+        to {
+            stroke-dasharray: 100, 0;
+        }
+    }
+    .fs-seven{
+        color: rgba(var(--p1), 0.3);
+    }
+    .swiper-slide-thumb-active{
+        .progress {
+            stroke: rgba(var(--p2), 1);
+        }
+        .dot{
+            background: rgba(var(--p2), 1);
+        }
+        .fs-seven{
+            color: rgba(var(--p2), 1);
+        }
+    }
+}
+
+// Trending wedding
+.trending-wedding{
+    background-color: rgba(var(--s3), 0.2);
+    .row-gap{
+        row-gap: 8px;
+    }
+    .single-box{
+        h4{
+            color: rgba(var(--s6), 1);
+        }
+        p{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .img-area{
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+        }
+        &:hover{
+            &::before{
+                background-color: rgba(var(--p2), 0.2);
+            }
+            a{
+                opacity: 1;
+            }
+        }
+        a{
+            transition: 0.5s;
+            opacity: 0;
+        }
+    }
+    .slider-icon-area{
+        cursor: none;
+    }
+    &.second{
+        background-color: rgba(var(--s1), 0.1);
+    }
+}
+
+// Call to Action 
+.call-action{
+    .bg-img{
+        max-width: 135%;
+    }
+}
+
+// Call to Action 
+.call-to-action{
+    &::before{
+        position: absolute;
+        content: '';
+        width: 95%;
+        height: 60%;
+        background-color: rgba(var(--s1), 0.5);
+    }
+    .icon-arrow{
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background: rgba(var(--p2), 1);
+        i{
+            color: rgba(var(--n8), 1);
+        }
+    }
+    .counter-area{
+        border-radius: 64px;
+        background: rgba(var(--n7), 1);
+        box-shadow: var(--shadow-md);
+        .odometer{
+            span{
+                font-weight: inherit;
+                font-size: inherit;
+            }
+        }
+    }
+    .icon-area{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: rgba(var(--n7), 1);
+        top: 5%;
+        left: 15%;
+        i{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgba(var(--n4), 0.6);
+            color: rgba(var(--p2), 1);
+        }
+        &.second{
+            top: initial;
+            bottom: 5%;
+            i{
+                background: rgba(var(--s3), 0.6);
+            }
+        }
+        &.third{
+            top: initial;
+            bottom: initial;
+            left: initial;
+            right: -20%;
+            i{
+                background: rgba(var(--n1), 0.6);
+            }
+        }
+    }
+    &.second{
+        &::before{
+            display: none;
+        }
+        .right-area{
+            background-image: url(../images/call-to-action-shape.png);
+            background-position: center;
+        }
+        .main-content{
+            background-color: rgba(var(--n4), 1);
+            margin-top: -140px;
+        }
+    }
+    &.third{
+        overflow: initial;
+    }
+}
+
+// testimonial
+.testimonial{
+    .swiper-slide{
+        .icon-area{
+            i{
+                font-family: 'Material Symbols Outlined';
+            }
+        }
+    }
+    .testimonial-slider{
+        background-color: rgba(var(--n1), 1);
+        p{
+            color: rgba(var(--p1), 1);
+        }
+        i{
+            color: rgba(var(--s5), 1);
+        }
+    }
+    .slide-button{
+        background-color: transparent;
+    }
+    .sec-img{
+        transform: translateY(28px);
+    }
+    &.second{
+        .star-icon{
+            i{
+                color: rgba(var(--s2), 1);
+            }
+        }
+        .icon-area{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            background-color: rgba(var(--n8), 1);
+            border: 1px solid rgba(var(--p2), 0.3);
+            i{
+                color: rgba(var(--p2), 1);
+            }
+        }
+        .v-line{
+            &::before{
+                transform: rotate(0deg);
+                width: 100%;
+                height: 1px;
+                z-index: -1;
+            }
+        }
+        .testimonial-slider{
+            background-color: transparent;
+        }
+        .ara-slide-prev{
+            transform: rotate(180deg);
+        }
+    }
+}
+
+// idea-and-tips
+.idea-and-tips{
+    background-color: transparent;
+    margin-bottom: -12px;
+    z-index: 1;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 55%;
+        top: 0;
+        background-color: rgba(var(--s4), 0.2);
+        z-index: -1;
+    }
+    .content-area{
+        margin-top:-35px;
+        background: rgba(var(--n8), 1);
+        box-shadow: var(--shadow-sm);
+        .icon-area{
+            background: rgba(var(--s1), 1);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            z-index: 1;
+        }
+        border: 1px solid rgba(var(--n8), 1);
+        transition: all 0.5s;
+        &:hover{
+            background: rgba(var(--n8), 1);
+            box-shadow: var(--shadow-lg);
+        }
+    }
+    .swiper-slide{
+        margin-bottom: 12px;
+        .img-area{
+            img{
+                width: 100%;
+            }
+        }
+        &:hover{
+            .content-area{
+                box-shadow: var(--shadow-lg);
+            }
+        }
+    }
+}
+
+// FAQs
+.faqs-section {
+    overflow: initial;
+    .accordion-item{
+        border: none;
+    }
+    .accordion-button {
+        padding: 20px 32px;
+        border-radius: 80px !important;
+        font-size: inherit;
+        font-weight: inherit;
+        gap: 16px;
+        box-shadow: none;
+        background: rgba(var(--n4), 1);
+        color: rgba(var(--p2), 1);
+        padding-right: 20%;
+        &::after {
+            content: 'remove';
+            font-family: 'Material Symbols Outlined';
+            z-index: 1;
+            position: absolute;
+            right: 30px;
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            background-image: none;
+            background: rgba(var(--s3), 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+        }
+        &.collapsed {
+            &::after {
+                content: 'add';
+            }
+        }
+    }
+    .accordion {
+        .accordion-item {
+            border-radius: 0;
+            background-color: transparent;
+        }
+    }
+    .accordion-body {
+        padding: 20px;
+        padding-right: 10%;
+        padding-bottom: 0;
+    }
+    &.second{
+        &::before{
+            position: absolute;
+            content: '';
+            width: 90%;
+            height: 100%;
+            background: rgba(var(--s3), 1);
+        }
+    }
+}
+
+// Banner Category
+.banner-category{
+    .overlay{
+        margin-bottom: -50px;
+    }
+    .swiper-wrapper{
+        margin-bottom: 50px;
+    }
+    .swiper-slide{
+        background: rgba(var(--s1), 0.3);
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: var(--shadow-xxl);
+        }
+        .icon-area{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: rgba(var(--s1), 1);
+        }
+        &.second{
+            background: rgba(var(--n1), 0.3);
+            .icon-area{
+                background: rgba(var(--n1), 1);
+            }
+        }
+        &.third{
+            background: rgba(var(--n3), 0.3);
+            .icon-area{
+                background: rgba(var(--n3), 1);
+            }
+        }
+        &.fourth{
+            background: rgba(var(--n2), 0.3);
+            .icon-area{
+                background: rgba(var(--n2), 1);
+            }
+        }
+        &.fifth{
+            background: rgba(var(--s4), 0.3);
+            .icon-area{
+                background: rgba(var(--s4), 1);
+            }
+        }
+        &.sixth{
+            background: rgba(var(--s3), 0.3);
+            .icon-area{
+                background: rgba(var(--s3), 1);
+            }
+        }
+    }
+    &.index-six{
+        .banner-category-carousel{
+            margin-bottom: -50px;
+        }
+        .swiper-slide{
+            position: relative;
+            margin-bottom: 50px;
+            &::before{
+                position: absolute;
+                content: '';
+                width: 100%;
+                height: 100%;
+                background-color: rgba(var(--n8), 1);
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+            .icon-area{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+    &.checklist{
+        .overlay {
+            margin-bottom: -100px;
+        }
+    }
+    &.second{
+        margin-top: -100px;
+        &::before, &::after{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(var(--n7), 1);
+            z-index: -1;
+        }
+        .icon-area{
+            img{
+                width: 30px;
+            }
+        }
+    }
+}
+
+// Deal For Wedding
+.deal-for-wedding{
+    background-color: transparent;
+    &.wedding-listing .single-item {
+        .icon {
+            background-color: rgba(var(--s2), 1);
+            i{
+                color: rgba(var(--s7), 1);
+            }
+        }
+    }
+    .items-wrapper{
+        .info-area{
+            transition: all 0.5s;
+            box-shadow: var(--shadow-md);
+        }
+        &:hover{
+            .info-area{
+                box-shadow: var(--shadow-lg);
+                transition: all 0.5s;
+            }
+        }
+    }
+    &.wedding-vendors{
+        .icon-area{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 6px solid rgba(var(--n8), 1);
+            background: rgba(var(--s3), 1);
+            margin-top: -36px;
+        }
+        .swiper-slide{
+            &:nth-child(odd){
+                .icon-area{
+                    background: rgba(var(--n1), 1);
+                }
+            }
+        }
+    }
+}
+
+// how-it-work
+.how-it-work{
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        top: 0;
+        background-image: url(../images/icon/how-works-left-bg.png), url(../images/icon/how-works-right-bg.png);
+        background-position: center left, center right;
+        background-color: rgba(var(--s3), 1);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -1;
+    }
+    .single-box{
+        background: rgba(var(--n8), 1);
+        box-shadow: var(--shadow-sm);
+        transition: all 0.5s;
+        h4{
+            color: rgba(var(--s6), 1);
+        }
+        &:hover{
+            box-shadow: var(--shadow-xl);
+            h4{
+                color: rgba(var(--s2), 1);
+            }
+        }
+    }
+    a {
+        &:hover{
+            span, i{
+                color: rgba(var(--s2), 1);
+            }
+        }
+    }
+    .icon-area{
+        width: 100px;
+        height: 100px;
+        background: rgba(var(--p2), 1);
+        border-radius: 100px;
+    }
+    .abs-area{
+        width: 55px;
+        height: 95px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        background: rgba(var(--s1), 0.3);
+        span{
+            padding: 10px 14px;
+            border-radius: 47px;
+            background: rgba(var(--s1), 1);
+        }
+    }
+    &.second{
+        overflow: initial;
+        background-image: url(../images/how-works-illus.png);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+        &::before{
+            background: rgba(var(--s3), 1);
+            height: 170%;
+        }
+        .single-box{
+            background-color: transparent;
+            box-shadow: none;
+        }
+        .icon-wrap{
+            border: 1px solid rgba(var(--p2), 0.3);
+            background: rgba(var(--s1), 0.3);
+
+            border-radius: 50%;
+        }
+        .icon-area{
+            width: 75px;
+            height: 75px;
+            i{
+                color: rgba(var(--n8), 1);
+            }
+        }
+        .abs-item{
+            border-radius: 62.5px;
+            background: rgba(var(--n1), 1);
+            padding: 2px 8px;
+        }
+    }
+}
+
+// blog-content
+.blog-content{
+    background-color: rgba(var(--n7), 1);
+    overflow: initial;
+    .negative-margin{
+        margin-top: -90px;
+        background-color: rgba(var(--n8), 1);
+        width: 90%;
+    }
+}
+
+// blog-section
+.blog-section{
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 60%;
+        background-color: rgba(var(--s4), 0.2);
+    }
+    .single-box{
+        background-color: rgba(var(--n7), 1);
+    }
+}
+
+// Features
+.features{
+    background-image: url(../images/features-bg-img-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(var(--s6), 0.8);
+        top: 0;
+        z-index: -1;
+    }
+    .col-xxl-3{
+        &::before{
+            content: '';
+            position: absolute;
+            width: 1px;
+            height: 150%;
+            background-color: rgba(var(--n7), 0.3);
+            top: -25%;
+            left: 0;
+            z-index: -1;
+        }
+        &:first-child{
+            &::before{
+                display: none;
+            }
+        }
+    }
+    .single-box{
+        &:hover, &.active{
+            cursor: pointer;
+            .bottom-area{
+                opacity: 1;
+                transform: translateX(0);
+            }
+            .top-area{
+                transform: translateY(0);
+            }            
+        }
+    }
+    .bottom-area{
+        opacity: 0;
+        transform: translateX(45%);
+        transition: all 0.3s ease-in-out;
+    }
+    .top-area{
+        transition: all 0.5s ease-in-out;
+        transform: translateY(75%);
+    }
+    .box-style.box-second.second-alt{
+        background-color: transparent;
+        color: rgba(var(--n7), 1);
+        border-color: rgba(var(--n7), 1);
+        &:hover{
+            border-color: rgba(var(--p2), 1);
+        }
+    }
+}
+
+// Plan Your Wedding
+.plan-your-wedding{
+    .abs-icon{
+        width: 80px;
+        height: 80px;
+        border-radius: 60px;
+        background: rgba(var(--s1), 1);
+        margin-top: -40px;
+    }
+    .single-box{
+        background-image: url(../images/wedding-plan-bg.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-color: rgba(var(--s1), 0.3);
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: var(--shadow-xl);
+        }
+        .image-area img{
+            max-width: 208px;
+            max-height: 208px;
+            border-radius: 50%;
+            height: 208px;
+        }
+    }
+    .col-xxl-3{
+        &:nth-child(2){
+            .abs-icon{
+                background: rgba(var(--n1), 1);
+            }
+            .single-box{
+                background-color: rgba(var(--n1), 0.3);
+            }
+        }
+        &:nth-child(3){
+            .abs-icon{
+                background: rgba(var(--n3), 1);
+            }
+            .single-box{
+                background-color: rgba(var(--n3), 0.3);
+            }
+        }
+        &:nth-child(4){
+            .abs-icon{
+                background: rgba(var(--n2), 1);
+            }
+            .single-box{
+                background-color: rgba(var(--n2), 0.3);
+            }
+        }
+    }
+}
+
+// Explore Wedding
+.explore-wedding{
+    background-color: rgba(var(--s1), 0.3);
+    li{
+        a{
+            &::before{
+                position: absolute;
+                content: '';
+                background-color: rgba(var(--s2), 1);
+                width: calc(100% + 85px);
+                height: 1px;
+                bottom: -10px;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+            &.active, &:hover{
+                color: rgba(var(--s2), 1);
+                &::before{
+                    bottom: 0;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .left-side .min-margin{
+        margin-left: -40px;
+    }
+    .right-side .min-margin{
+        margin-top: -200px;
+    }
+    .category-gallery-wrap{
+        .category-gallery{
+            display: none;
+            &.active{
+                display: block;
+                img{
+                    &:nth-child(1){
+                        animation: 2s ease 0s normal none 1 fadeInUp;
+                    }
+                    &:nth-child(2){
+                        animation: 3s ease 0s normal none 1 fadeInUp;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Happy Couple
+.happy-couple{
+    .star-icon{
+        i{
+            color: rgba(var(--s2), 1);
+        }
+    }
+    .swiper-slide{
+        background-color: rgba(var(--n7), 1);
+    }
+    .swiper-slide-active{
+        background-color: rgba(var(--n1), 1);
+    }
+}
+
+// Explore nearby
+.explore-nearby{
+    .single-box{
+        background-color: rgba(var(--n1), 0.3);
+        border-radius: 16px;
+        transition: all 0.3s;
+        a{
+            transition: all 0.3s;
+        }
+        &:hover{
+            background-color: rgba(var(--n1), 1);
+            a{
+				border: 1px solid rgba(var(--s2), 0.3);
+            }
+        }
+    }
+    .text-area{
+        h5{
+            color: rgba(var(--s6), 1);
+        }
+        p{
+            color: rgba(var(--s2), 1);
+        }
+    }
+}
+
+// Counter Section
+.counter-section{
+    .single-box{
+        background: rgba(var(--s1), 0.3);
+        transition: all 0.3s;
+        &:hover{
+            box-shadow: var(--shadow-xxl);
+        }
+        .icon-area{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: rgba(var(--s1), 1);
+        }
+        &.second{
+            background: rgba(var(--n1), 0.3);
+            .icon-area{
+                background: rgba(var(--n1), 1);
+            }
+        }
+        &.third{
+            background: rgba(var(--n3), 0.3);
+            .icon-area{
+                background: rgba(var(--n3), 1);
+            }
+        }
+        &.fourth{
+            background: rgba(var(--n2), 0.3);
+            .icon-area{
+                background: rgba(var(--n2), 1);
+            }
+        }
+        &.fifth{
+            background: rgba(var(--s4), 0.3);
+            .icon-area{
+                background: rgba(var(--s4), 1);
+            }
+        }
+        &.sixth{
+            background: rgba(var(--s3), 0.3);
+            .icon-area{
+                background: rgba(var(--s3), 1);
+            }
+        }
+    }
+}
+
+// counter-part
+.counter-part{
+    overflow: initial;
+    margin-top: -140px;
+    .counter-area{
+        &::before{
+            position: absolute;
+            content: '';
+            width: 216px;
+            height: 216px;
+            border-radius: 50%;
+            border: 1px solid rgba(var(--n4), 0.4);
+        }
+    }
+    .main-content{
+        background-color: rgba(var(--p2), 1);
+    }
+}
+
+// planning-features
+.planning-features{
+    .single-box{
+        background-color: rgba(var(--n8), 1);
+        box-shadow: var(--shadow-lg);
+    }
+    .icon-area{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: rgba(var(--s2), 0.1);
+    }
+    .cus-mar{
+        &::before{
+            position: absolute;
+            content: '';
+            width: 719px;
+            height: 719px;
+            background-color: rgba(var(--p2), 0.3);
+            z-index: -1;
+            border-radius: 50%;
+        }
+    }
+}
+
+// App download 
+.app-download{
+    .bg-area{
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 60%;
+            background-color: rgba(var(--s3), 1);
+            z-index: -1;
+        }
+    }
+}
+
+// completed-projects
+.completed-projects{
+    .swiper-slide{
+        scale: 1 0.8;
+        transition: 0.5s;
+        a, h3{
+            opacity: 0;
+        }
+        &.swiper-slide-active{
+            scale: 1;
+            a, h3{
+                opacity: 1;
+            }
+        }
+    }
+    h3{
+        background-color: rgba(var(--s2), 1);
+    }
+}
+
+// check list
+.check-list{
+    .single-box{
+        border-radius: 24px;
+        border: 1px solid rgba(var(--n5), 1);
+        transition: 0.5s;
+        &:hover{
+            background: rgba(var(--s2), 1);
+            h3, p{
+                color: rgba(var(--n8), 1);
+            }
+            .icon-wrap{
+                border: 1px solid rgba(var(--s1), 0.3);
+            }
+            .icon-area{
+                background: rgba(var(--s1), 1);
+                i{
+                    color: rgba(var(--s2), 1);
+                }
+            }
+        }
+    }
+    .icon-wrap{
+        border: 1px solid rgba(var(--s2), 0.3);
+        border-radius: 50%;
+    }
+    .icon-area{
+        width: 80px;
+        height: 80px;
+        background: rgba(var(--s2), 1);
+        border-radius: 50%;
+        i{
+            color: rgba(var(--n8), 1);
+        }
+    }
+}
+
+// Unlock the Secrets
+.unlock-secrets{
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 55%;
+        bottom: 0;
+        background-color: rgba(var(--s6), 0.04);
+        z-index: -1;
+    }
+    .main-content{
+        background-color: rgba(var(--n8), 1);
+    }
+    h2 span{
+        color: rgba(var(--s2), 1);
+    }
+}
+
+// Wedding Planner
+.wedding-planner{
+    background-color: rgba(var(--s6), 0.04);
+    .single-box{
+        background-color: rgba(var(--n8), 1);
+        transition: 0.5s;
+        &:hover{
+            background: rgba(var(--s2), 1);
+            a span, a i, h4, p{
+                color: rgba(var(--n8), 1);
+            }
+        }
+        a{
+            &hover{
+                i{
+
+                }
+            }
+        }
+    }
+    .icon-area{
+        width: 80px;
+        height: 80px;
+        background: rgba(var(--n1), 1);
+        border-radius: 50%;
+        i{
+            color: rgba(var(--s2), 1);
+        }
+    }
+    a{
+        span, i{
+            color: rgba(var(--s2), 1);
+        }
+    }
+}
+
+// Watch Our Video
+.watch-video{
+    background-image: url(../images/watch-video-bg.png), url(../images/watch-video-shape.png);
+    background-position: left center, center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    &::before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 50%;
+        top: 0;
+        right: 0;
+        background-color: rgba(var(--s6), 0.04);
+        z-index: -1;
+    }
+    .content-area{
+        &::before{
+            position: absolute;
+            content: '';
+            width: 150%;
+            height: 100%;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(var(--s2), 1);
+            z-index: -1;
+        }
+    }
+    .logo-outline img{
+        animation: rotate 100s linear infinite;
+    }
+    &.second{
+        &::before{
+            background: rgba(var(--n1), 1);
+        }
+    }
+    &.third{
+        background-image: none;
+        margin-top: -100px;
+        z-index: 0;
+        &::before{
+            background: transparent;
+        }
+    }
+    .icon-area{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: rgba(var(--s1), 1);
+        i{
+            color: rgba(var(--s2), 1);
+        }
+    }
+    &.fourth{
+        background-image: none;
+        &::before{
+            background: rgba(var(--n8), 1);
+        }
+        &::after {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 50%;
+            background: rgba(var(--s3), 1);
+            bottom: 0;
+            left: 0;
+            z-index: -2;
+        }
+        .box-style.box-second.second {
+            border-radius: 20px;
+            background: rgba(var(--n1), 1);
+            color: rgba(var(--s6), 1);
+        }
+    }
+}
+
+// wedding-website
+.wedding-website{
+    &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 35%;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(var(--s6), 0.04);
+        z-index: -1;
+    }
+    .single-box{
+        border-radius: 30px;
+        border: 1px solid rgba(var(--n6), 1);
+        background: rgba(var(--n8), 1);
+        box-shadow: var(--shadow-lg);
+    }
+    .box-style.box-third.seventh-alt{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+// video section
+.video-section{
+    .container{
+        &::before {
+            position: absolute;
+            content: "";
+            width: 150%;
+            height: 100%;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(var(--n1), 1);
+            z-index: -1;
+        }
+    }
+    .box-area{
+        background-color: rgba(var(--n8), 1);
+        border: 1px solid rgba(var(--p2), 1);
+    }
+    .icon-box{
+        background-color: rgba(var(--p2), 1);
+        color: rgba(var(--n8), 1);
+    }
+}
+
+// video-part
+.video-part{
+    background-color: rgba(var(--s3), 1);
+    .box-style.box-third.tenth-alt{
+        background-color: rgba(var(--s1), 1);
+        i{
+            color: rgba(var(--s6), 1);
+        }
+    }
+}
+
+// Exclusive Features
+.exclusive-features{
+    .icon-box{
+        min-width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: rgba(var(--s5), 1);
+        i{
+            color: rgba(var(--n8), 1);
+        }
+    }
+}
+
+// Recent Discussions
+.recent-discussions{
+    background-color: rgba(var(--n7), 1);
+    overflow: initial;
+    .single-item{
+        background-color: rgba(var(--n8), 1);
+        p span{
+            color: rgba(var(--p2), 1);
+        }
+        .people{
+            row-gap: 12px;
+            li{
+                margin-left: -8px;
+                img{
+                    min-width: 32px;
+                    height: 32px;
+                }
+            }
+        }
+    }
+    .section-head{
+        .icon-area{
+            border-radius: 50%;
+            background: rgba(var(--s1), 1);
+            width: 120px;
+            height: 120px;
+            i{
+                color: rgba(var(--s2), 1);
+            }
+        }
+        ul{
+            a{
+                color: rgba(var(--s6), 1) !important;
+                span{
+                    color: rgba(var(--p1), 1);
+                }
+                &:hover{
+                    border-color: transparent;
+                }
+                &.active{
+                    background-color: rgba(var(--s3), 1) !important;
+                    border: none;
+                }
+            }
+            
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 112%;
+            top: 0;
+            background-color: rgba(var(--n1), 0.3);
+            z-index: -1;
+        }
+    }
+    .create-discussions{
+        .icon-area{
+            border-radius: 60px;
+            background: rgba(var(--s3), 1);
+            min-width: 65px;
+            height: 65px;
+        }
+        span{
+            color: rgba(var(--p1), 1) !important;
+
+        }
+    }
+    &.wedding-attire{
+        margin-top: -60px;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            background-color: rgba(var(--n7), 1);
+            z-index: -1;
+        }
+        .search-form{
+            background-color: rgba(var(--n8), 1);
+        }
+    }
+    .order-by{
+        .nice-select{
+            width: 130px;
+            border-radius: 48px;
+            border: 1px solid rgba(var(--n5), 1);
+        }
+    }
+    .video-wrapper{
+        .profile-area{
+            max-width: 32px;
+            max-height: 32px;
+        }
+        .single-item{
+            margin-bottom: 28px;
+            &:hover{
+                .popupvideo{
+                    opacity: 1;
+                }    
+            }
+            .popupvideo{
+                opacity: 0;
+            }
+        }
+    }
+    .tabLinks{
+        .nav-links{
+            background-color: transparent;
+            color: rgba(var(--p2), 1);
+            border-radius: 50px;
+            border: 1px solid rgba(var(--p2), 1);
+            &.active, &:hover{
+                color: rgba(var(--n8), 1);
+                background-color: rgba(var(--p2), 1);
+            }
+        }
+    }
+    .elite-icon{
+        background-color: rgba(var(--s3), 0.3);
+        width: 24px;
+        height: 24px;
+    }
+    .results-members{
+        .single-box{
+            transition: all 0.3s;
+            &:hover{
+                background-color: rgba(var(--s1), 0.2);
+            }
+            a{
+                color: rgba(var(--s6), 1);
+            }
+        }
+    }
+    &.profile{
+        .section-head{
+            &::before {
+                height: 100%;
+            }
+        }
+    }
+    .wedding-details{
+        p a{
+            color: rgba(var(--p2), 1);
+        }
+        .single-box{
+            background-color: rgba(var(--n1), 0.3);
+        }
+        .icon-area{
+            width: 80px;
+            height: 80px;
+            border-radius: 80px;
+            background: rgba(var(--n8), 1);
+            i{
+                color: rgba(var(--s5), 1);
+            }
+        }
+    }
+    .my-activity{
+        .elite-icon{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+// active-user
+.active-user{
+    .swiper-slide{
+        background-color: rgba(var(--s3), 0.3);
+    }
+    .swiper-slide-next{
+        background-color: rgba(var(--n1), 1);
+    }
+    .abs-area{
+        border-radius: 16px;
+        background: rgba(var(--s4), 0.3);
+    }
+    h6{
+        background-color: rgba(var(--s3), 1);
+        border-radius: 16px;
+    }
+}
+
+// sidebar-common
+.sidebar-common{
+    .post-categories{
+        background: rgba(var(--n4), 1);
+        a{
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            transition: all 0.5s;
+            &::before {
+                content: 'east';
+                font-family: 'Material Symbols Outlined';
+                z-index: 1;
+                position: absolute;
+                color: rgba(var(--p2), 1);
+                left: -30px;
+                font-size: 24px;
+                transition: all 0.5s;
+            }
+            &:hover{
+                padding-left: 20px;
+                color: rgba(var(--p2), 1);
+                span{
+                    color: inherit;
+                }
+                &::before {
+                    left: -5px;
+                }
+            }
+        }
+    }
+    .stay-in-loop{
+        background: rgba(var(--s3), 1);
+        .input-area{
+            border-radius: 72px;
+        }
+    }
+    .popular-blogs{
+        background: rgba(var(--n4), 1);
+    }
+    .search-tags{
+        background: rgba(var(--n4), 1);
+        .box-style.box-second.seventh-alt{
+            border-radius: 48px;
+            padding: 12px 12px;
+            color: rgba(var(--s6), 1);
+            background-color: rgba(var(--s3), 1);
+            &:hover{
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+    .sidebar-head{
+        i{
+            transition: all 0.3s;
+        }
+        &:hover, &.active{
+            color: rgba(var(--p2), 1);
+            i{
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .sidebar-item-head{
+        cursor: pointer;
+    }
+    #price-range{
+        height: 1px;
+        background: rgba(var(--n5), 1);
+        .ui-slider-handle{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(var(--s6), 1);
+        }
+        .ui-slider-range {
+            background: rgba(var(--s6), 1);
+            height: 1px;
+        }
+        .ui-slider-handle{
+            top: -6px;
+        }
+    }
+    .sidebar-single-body{
+        display: none;
+        label{
+            transition: all 0.3s;
+            &:hover{
+                background: rgba(var(--n1), 0.5);
+                span{
+                    color: rgba(var(--p2), 1);
+                }
+            }
+            .checkmark {
+                left: 16px;
+                height: 16px;
+                width: 16px;
+            }
+        }
+    }
+    .size-list{
+        li{
+            cursor: pointer;
+            &.active{
+                border: 1px solid rgba(var(--p2), 1) !important;
+            }
+        }
+    }
+    .color-plate{
+        .item-list{
+            width: 25px;
+            height: 25px;
+            position: relative;
+            border-radius: 15px;
+            cursor: pointer;
+            background: rgba(var(--n1), 1);
+            &:nth-child(2){
+                background: rgba(var(--p1), 1);
+            }
+            &:nth-child(3){
+                background: rgba(var(--s1), 1);
+            }
+            &:nth-child(4){
+                background: rgba(var(--n1), 1);
+            }
+            &:nth-child(5){
+                background: rgba(var(--n6), 1);
+            }
+            &:nth-child(6){
+                background: rgba(var(--n2), 1);
+            }
+            &:nth-child(7){
+                background: rgba(var(--s2), 1);
+            }
+            &:nth-child(8){
+                background: rgba(var(--n3), 1);
+            }
+            &:nth-child(9){
+                background: rgba(var(--s3), 1);
+            }
+            &:nth-child(10){
+                background: rgba(var(--n4), 1);
+            }
+            &:nth-child(11){
+                background: rgba(var(--s4), 1);
+            }
+            &:nth-child(12){
+                background: rgba(var(--n5), 1);
+            }
+            &:nth-child(13){
+                background: rgba(var(--s5), 1);
+            }
+            &:nth-child(14){
+                background: rgba(var(--s6), 1);
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                border: 1px solid rgba(var(--s5), 0.5);
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+            }
+            &.active{
+                &::before {
+                    border: 1px solid rgba(var(--p2), 1);
+                }
+            }
+        }
+    }
+    .banner-area{
+        .abs-item{
+            border-radius: 24px 24px 0px 0px;
+            background: rgba(var(--n4), 0.9);
+            box-shadow: var(--shadow-xxl);
+        }
+    }
+    .sidebar-single-toggle{
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            border-bottom: 1px solid rgba(var(--n6), 1);
+            bottom: -16px;
+            width: 100%;
+        }
+    }
+    .filters-area{
+        ul{
+            background-color: rgba(var(--s6), 0.05);
+        }
+        li{
+            background-color: rgba(var(--n8), 1);
+            &:hover{
+                color: rgba(var(--p2), 1);
+            }
+            i{
+                cursor: pointer;
+            }
+        }
+    }
+    .tabMenu{
+        .tabLinks{
+            background-color: rgba(var(--n7), 1);
+        }
+        .box-style.box-second{
+            font-weight: 600;
+            &::before {
+                background-color: rgba(var(--n1), 1);
+            }
+            &.active{
+                color: rgba(var(--p2), 1);
+                background-color: rgba(var(--n1), 1) !important;
+                &::before {
+                }
+            }
+        }
+    }
+    .wedding-listing{
+        
+        .single-box{
+            box-shadow: none;
+        }
+    }
+    .certifications{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s5), 0.5);
+        .main-content{
+            border-radius: 40px;
+            background: rgba(var(--s1), 0.2);
+        }
+        .single-item{
+            border-top: 1px dashed rgba(var(--s6), 1);
+            &:first-child{
+                border: none;
+            }
+        }
+    }
+    .our-skills{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s5), 0.5);
+        .main-content{
+            border-radius: 40px;
+            background: rgba(var(--s3), 0.1);
+        }
+    }
+    .more-info{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s5), 0.5);
+        .main-content{
+            border-radius: 40px;
+            background: rgba(var(--s1), 0.2);
+        }
+        .icon-area{
+            min-width: 40px;
+            height: 40px;
+            background: rgba(var(--p2), 1);
+            i{
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+    .get-quote{
+        border-radius: 32px;
+        border: 1px solid rgba(var(--s6), 0.2);
+        background: rgba(var(--n8), 1);
+        .main-content{
+            border-radius: 20px;
+            background: rgba(var(--n1), 0.3);
+        }
+        .btn-area{
+            button i{
+                color: rgba(var(--p2), 1);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (min-width: 1199px) {
+    .sidebar-common{
+        height: 100% !important;
+    }
+}
+
+// blog-details
+.blog-details{
+    overflow: initial;
+    background-color: rgba(var(--n7), 1);
+    .search-tags{
+        .box-style.box-second.seventh-alt{
+            color: rgba(var(--s6), 1);
+            &:hover{
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+    .comments-area{
+        .single-box{
+            background-color: rgba(var(--n8), 1);
+            .reply-btn{
+                background-color: rgba(var(--n1), 1);
+            }
+        }
+    }
+    .leave-comment{
+        background-color: rgba(var(--n8), 1);
+    }
+    .ul-decimal{
+        column-count: 2;
+    }
+    .quote{
+        background: rgba(var(--n1), 1);
+        border-left: 8px solid rgba(var(--p2), 1);
+        i{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .reply-items{
+        width: 86%;
+    }
+    .sidebar-toggler{
+        margin-top: -100px;
+        z-index: 0;
+        position: relative;
+    }
+    .static-content{
+        background-color: rgba(var(--n7), 1);
+    }
+    .main-content{
+        margin-top: -150px;
+        background-color: rgba(var(--n7), 1);
+    }
+    .about-author{
+        border-radius: 32px;
+        background: rgba(var(--n4), 1);
+        box-shadow: var(--shadow-sm);
+    }
+}
+
+// free-shipping
+.free-shipping{
+    background-color: rgba(var(--n7), 1);
+    .icon-area{
+        min-width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background: rgba(var(--n6), 1);
+    }
+}
+
+// browse-category
+.browse-category{
+    background-color: rgba(var(--n7), 1);
+    .container{
+        margin-bottom: -48px;
+    }
+    .browse-category-btn .box-style.box-third{
+        &:hover i{
+            transform: initial;
+        }
+    }
+    .banner-category .swiper-slide .icon-area{
+        width: 80px;
+        height: 80px;
+        background: rgba(var(--n1), 0.8);
+    }
+    .banner-category .swiper-slide{
+        background-color: rgba(var(--n8), 1);
+    }
+}
+
+// Top Trending Gifts
+.personalize-gifts{
+    background-color: rgba(var(--n7), 1);
+    .box-style.box-third{
+        &:hover i{
+            transform: initial;
+        }
+    }
+    .swiper-slide{
+        background-color: rgba(var(--n8), 1);
+    }
+    .swiper-scrollbar-drag{
+        background-color: rgba(var(--p2), 1);
+    }
+    .tabLinks{
+        li{
+            border-left: 1px solid rgba(var(--n5), 1);
+            &:first-child{
+                border-left: none;
+            }
+        }
+        .nav-links.active{
+            color: rgba(var(--s2), 1);
+        }
+    }
+}
+
+// collection-section
+.collection-section{
+    background-color: rgba(var(--n7), 1);
+    .box-style span{
+        color: rgba(var(--n8), 1);
+    }
+    h6{
+        background-color: rgba(var(--n1), 1);
+    }
+    .best-package{
+        width: 160px;
+        height: 160px;
+        top: 25%;
+        background: rgba(var(--n2), 1);
+    }
+}
+
+// new-collection
+.new-collection{
+    background-image: url(../images/new-ollection-illus.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-color: rgba(var(--n7), 1);
+    .btn-area{
+        .box-style.box-second.alt{
+            background-color: rgba(var(--n1), 0.8);
+            color: rgba(var(--s6), 1);
+        }
+    }
+}
+
+// new-offer
+.new-offer{
+    background-color: rgba(var(--n7), 1);
+    .single-box{
+        background-color: rgba(var(--n7), 1);
+        .text-box{
+            width: 45%;
+        }
+        &.second{
+            .text-box{
+                width: 55%;
+            }
+        }
+    }
+}
+
+// special-offer
+.special-offer{
+    background-color: rgba(var(--n7), 1);
+    .offer-price{
+        background: rgba(var(--s3), 1);
+    }
+    .time{
+        background-color: rgba(var(--s3), 1);
+        width: 40px;
+        height: 40px;
+    }
+    .single-box{
+        background-color: transparent;
+    }
+    .special-offer{
+        background-color: rgba(var(--p2), 1);
+        color: rgba(var(--n8), 1);
+        transform: rotate(-45deg);
+        top: 60px;
+        left: -75px;
+    }
+}
+
+// Deal of the day
+.deal-of-the-day{
+    background-image: url(../images/deal-of-the-day-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .main-content{
+        border-radius: 449px;
+        border: 11px solid rgba(var(--s3), 1);
+        background: rgba(var(--n7), 1);
+    }
+}
+
+// shop-details
+.shop-details{
+    background-color: rgba(var(--n7), 1);
+    overflow: initial;
+    .shop-details-slider, .shop-details-carousel {
+        height: 650px;
+    }
+    .star-area{
+        i{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .product-sold{
+        background-color: rgba(var(--p2), 0.1);
+        i, span{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .size-list{
+        li{
+            width: 40px;
+            height: 40px;
+            border-radius: 40px;
+            border: 1px solid rgba(var(--s5), 0.5);
+            transition: all 0.5s;
+            position: relative;
+            &.not-available{
+                &::before {
+                    content: '';
+                    z-index: 1;
+                    position: absolute;
+                    transform: rotate(-45deg);
+                    background-color: rgba(var(--s5), 0.5);
+                    width: 1px;
+                    height: 100%;
+                }
+            }
+        }
+        .available{
+            &:hover, &.active{
+                background-color: rgba(var(--s6), 1);
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+    .qtySelector{
+        border: 1px solid rgba(var(--s5), 0.5);
+        i{
+            cursor: pointer;
+            color: rgba(var(--s6), 1);
+            min-width: 24px;
+            min-height: 24px;
+            font-size: 14px;
+            border-radius: 50%;
+            background-color: rgba(var(--s3), 1);
+        }
+        .qtyValue{
+            border: none;
+            padding: 5px;
+            width: 50px;
+            color: var(--n8);
+        }
+    }
+    .checkout{
+        background: rgba(var(--s3), 0.2);
+    }
+    .free-shipping{
+        background: rgba(var(--n1), 1);
+    }
+    .additional-info{
+        li{
+            &:nth-child(even){
+                background: rgba(var(--n6), 1);
+            }
+            span{
+                &:first-child{
+                    width: 25%;
+                }
+            }
+        }
+    }
+    .singleTab {
+        .nav-links.active{
+            color: rgba(var(--p2), 1);
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                background-color: rgba(var(--p2), 1);
+                bottom: -31px;
+                width: 100%;
+                height: 3px;
+            }
+        }
+    }
+}
+
+// shop-cart
+.shop-cart{
+    background-color: rgba(var(--n7), 1);
+    overflow: initial;
+    .img-area{
+        width: 90px;
+    }
+    td{
+        vertical-align: middle;
+        text-align: center;
+    }
+    th{
+        text-align: center;
+        &:nth-child(1){
+            text-align: start;
+        }
+        &:nth-child(2){
+            width: 15%;
+        }
+    }
+    .tax-info{
+        p{
+            &::before {
+                content: '';
+                z-index: 1;
+                position: absolute;
+                background-color: rgba(var(--s6), 1);
+                left: 0;
+                top: 4px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+            }
+        }
+    }
+    .side-area{
+        background-color: rgba(var(--n8), 1);
+    }
+}
+
+// shop-section
+.shop-section{
+    background-color: rgba(var(--n7), 1);
+    .img-area{
+        background-color: rgba(var(--n8), 1);
+    }
+    .sort-area{
+        border-radius: 4px;
+        background: rgba(var(--n6), 1);
+    }
+    .list-grid-toggler{
+        button{
+            &:hover, &.active{
+                i, span{
+                    color: rgba(var(--s2), 1);
+                }
+            }
+            &.active{
+                pointer-events: none;
+            }
+        }
+    }
+    .all-items {
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .fadeOne{
+        animation: 2s ease 0s normal none 1 fadeIn1st;
+    }
+    .fadeTwo{
+        animation: 2.5s ease 0s normal none 1 fadeIn2nd;
+    }
+    .single-box {
+        flex: 0 0 calc(100% / 4 - 15px);
+        max-width: calc(100% / 4 - 15px);
+        transition: all 0.5s ease-in-out;
+        .single{
+            justify-content: center;
+        }
+        .text-area{
+            text-align: center;
+        }
+        &.list{
+            flex: 0 0 calc(100% / 2 - 15px);
+            max-width: calc(100% / 2 - 15px);
+            display: flex;
+            align-items: center;
+            .text-area{
+                text-align: start;
+            }
+            .single{
+                justify-content: start;
+            }
+        }
+    }
+    &.second{
+        overflow: initial;
+        .single-box {
+            flex: 0 0 calc(100% / 3 - 15px);
+            max-width: calc(100% / 3 - 15px);
+            transition: 0.5s;
+            .single{
+                justify-content: center;
+            }
+            .text-area{
+                text-align: center;
+            }
+            &.list{
+                flex: 0 0 calc(100% / 2 - 15px);
+                max-width: calc(100% / 2 - 15px);
+                display: flex;
+                align-items: center;
+                .text-area{
+                    text-align: start;
+                }
+                .single{
+                    justify-content: start;
+                }
+            }
+        }
+    }
+}
+
+// Premium Service
+.premium-service{
+    &::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        background-color: rgba(var(--s1), 0.5);
+        right: 0;
+        top: 0;
+        width: 76%;
+        height: 72%;
+    }
+    .top-end{
+        top: -50px;
+        right: -45px;
+    }
+    .bottom-start{
+        bottom: -20px;
+        left: -20px;
+    }
+    .bottom-end{
+        bottom: -35px;
+        right: -35px;
+    }
+}
+
+// our teams 
+.our-teams {
+    .single-box{
+        background: rgba(var(--n1), 1);
+        &.active{
+            .social-area{
+                transform: rotateX(0deg);
+            }
+            .social-hide-btn{
+                background: rgba(var(--p2), 1);
+                i{
+                    color: rgba(var(--n8), 1);
+                }
+            }
+        }
+    }
+    .social-area{
+        transform: rotateX(90deg);
+        background-color: rgba(var(--n8), 1);
+        bottom: 20px;
+        border-color: transparent;
+        transition: 0.5s all;
+    }
+    .social-hide-btn{
+        width: 32px;
+        height: 32px;
+        background: rgba(var(--p2), 0.15);
+        bottom: -20px;
+    }
+}
+
+// wedding-venues-region
+.wedding-venues-region{
+    .single-item{
+        background: rgba(var(--s1), 0.1);
+        transition: all 0.5s;
+        &:hover{
+            background: rgba(var(--s3), 1);
+        }
+    }
+}
+
+// wedding-venues-section
+.wedding-venues-section{
+    overflow: initial;
+    .show-result{
+        .btn-area{
+            border-radius: 58px;
+            background: rgba(var(--n7), 1);
+        }
+        button, a{
+            transition: all 0.5s;
+            &:hover, &.active{
+                border-radius: 42px;
+                background: rgba(var(--n1), 1);
+            }
+        }
+    }
+    .all-items {
+        width: 100% !important;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 15px;
+    }
+    .fadeOne{
+        animation: 2s ease 0s normal none 1 fadeIn1st;
+    }
+    .fadeTwo{
+        animation: 2.5s ease 0s normal none 1 fadeIn2nd;
+    }
+    .single-box{
+        flex: 0 0 calc(100% / 3 - 15px);
+        max-width: calc(100% / 3 - 15px);
+        transition: 0.5s;
+        border: 1px solid transparent;
+        &:hover{
+            border-color: rgba(var(--p2), 1);
+            background: rgba(var(--n8), 1);
+            box-shadow: var(--shadow-xl);
+        }
+        .info-area{
+            h5{
+                color: rgba(var(--s6), 1);
+                &:hover{
+                    text-decoration: underline;
+                    color: rgba(var(--p2), 1);
+                }
+            }
+        }
+        &.list{
+            flex: 0 0 calc(100% / 1 - 15px);
+            max-width: calc(100% / 1 - 15px);
+            display: flex;
+            align-items: center;
+        }
+    }
+    .list{
+        .wedding-listing-slider{
+            width: 30%;
+        }
+        .end-area, .mid-area{
+            width: 35%;
+        }
+        .end-area{
+            border-radius: 12px;
+            padding: 40px 20px !important;
+            background: rgba(var(--n4), 1);
+        }
+    }
+}
+
+// wedding-venues-section
+.wedding-venues-details{
+    overflow: initial;
+    .tabLinks{
+        .nav-links.active{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .tabContents{
+        .nav-tabs{
+            border-radius: 58px;
+            background: rgba(var(--n7), 1);
+            button, a{
+                color: rgba(var(--s6), 1);
+                &:hover, &.active{
+                    color: rgba(var(--s2), 1);
+                    border-radius: 42px;
+                    background: rgba(var(--n1), 1);
+                }
+            }
+        }
+    }
+    .single-area{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s6), 0.1);
+        background: rgba(var(--n8), 1);
+        &.second{
+            background: rgba(var(--n1), 0.2);
+        }
+    }
+    .tab-content .single-box{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s6), 0.1);
+        transition: all 0.3s;
+        &:hover{
+            border-color: transparent;
+            background: rgba(var(--n1), 0.3);
+        }
+    }
+    .price-area{
+        .top-box{
+            border-radius: 120px;
+            background-color: rgba(var(--n1), 1);
+        }
+        .mid-area{
+            li{
+                border-bottom: 1px solid rgba(var(--p1), 0.1);
+                &:last-child{
+                    border-bottom: none;
+                }
+            }
+            .feature-remove{
+                span{
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+    .download-area{
+        .main-content{
+            border-radius: 30px;
+            background: rgba(var(--s3), 0.3);
+        }
+        .box-style.box-third:hover i {
+            transform: rotate(0deg);
+        }
+    }
+    .faq-area{
+        ul{
+            column-count: 3;
+            li{
+                margin-top: 12px;
+                &:first-child{
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .question-area{
+        background: rgba(var(--n4), 1);
+        .icon-box{
+            width: 80px;
+            height: 80px;
+            border-radius: 80px;
+            background: rgba(var(--p2), 1);
+            i{
+                color: rgba(var(--n8), 1);
+            }
+        }
+        a{
+            span, i{
+                color: rgba(var(--p2), 1);
+            }
+        }
+    }
+    .total-rating{
+        background-color: rgba(var(--n1), 1);
+        border-radius: 30px;
+    }
+    .star-area i{
+        color: rgba(var(--p2), 1);
+    }
+    .recommended{
+        .rating-single{
+            margin-top: 20px;
+        }
+    }
+    .featured-item{
+        span{
+            background-color: rgba(var(--n8), 1);
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: rgba(var(--p1), 0.5);
+        }
+    }
+    .map-area{
+        iframe{
+            height: 500px;
+        }
+    }
+    .featured-item span {
+        background-color: rgba(var(--n7), 1);
+    }
+}
+
+// wedding-package-details
+.wedding-package-details{
+    background: rgba(var(--n7), 1);
+    overflow: initial;
+    .btn-overlay{
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 300%;
+            opacity: 0.8;
+            backdrop-filter: blur(15px);
+        }
+    }
+    .read-more-btn{
+        color: rgba(var(--p2), 1);
+    }
+    .read-more-content{
+        height: 180px;
+        overflow: hidden;
+        &.active{
+            height: 100%;
+        }
+    }
+    .add-ons-area{
+        .head-content{
+            border-radius: 32px;
+            background: rgba(var(--s3), 1);
+        }
+        .main-content{
+            border-radius: 20px;
+            background: rgba(var(--n8), 1);
+        }
+        .inner-content{
+            border-radius: 20px;
+            border: 1px solid rgba(var(--s6), 0.1);
+            background: rgba(var(--n1), 0.2);
+        }
+        .close-area{
+            border-radius: 12px;
+            background: rgba(var(--n7), 1);
+        }
+        ul{
+            .icon-box{
+                min-width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                background: rgba(var(--s2), 0.1);
+            }
+            li{
+
+            }
+        }
+    }
+    .qtySelector{
+        .fs-nine{
+            top: -10px;
+            background: rgba(var(--s3), 1);
+        }
+    }
+    .more-info{
+        .icon-box{
+            border-radius: 24px;
+            background: rgba(var(--s2), 0.1);
+            min-width: 32px;
+            height: 32px;
+        }
+        .text-box{
+            span{
+                color: rgba(var(--p2), 1);
+            }
+        }
+    }
+    .info-head{
+        i{
+            color: rgba(var(--p2), 1);
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 1px;
+            background: rgba(var(--p1), 0.4);
+        }
+        .content-area{
+            background: rgba(var(--n7), 1);
+        }
+    }
+    .parent-ul{
+        column-count: 2;
+        li{
+            margin-top: 16px;
+            &:first-child{
+                margin: 0;
+            }
+        }
+        .ul-dots{
+            li{
+                margin: 0;
+            }
+        }
+        .icon-area{
+            i{
+                color: rgba(var(--p2), 1);
+            }
+        }
+    }
+    .payments-ul{
+        .highlighter{
+            color: rgba(var(--p2), 1);
+        }
+    }
+}
+
+// enquiry through
+.enquiry-through{
+    .single-box{
+        .icon-area{
+            min-width: 80px;
+            height: 80px;
+            background-color: rgba(var(--p2), 1);
+            i{
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+}
+
+// Request pricing
+.request-pricing{
+    border-radius: 60px;
+    border: 1px solid rgba(var(--s6), 0.1);
+    .info-area{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s6), 0.1);
+        background: rgba(var(--n7), 1);
+        .icon-area{
+            border-radius: 32px;
+            width: 40px;
+            height: 40px;
+            background: rgba(var(--n1), 1);
+        }
+        span{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .btn-area{
+        .box-style.box-third.sixth-alt i{
+            color: rgba(var(--p2), 1);
+        }
+    }
+}
+
+// vendor-profile
+.vendor-profile{
+    .single-box{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s6), 1);
+    }
+    .icon-diamond, .icon-wrap{
+        width: 60px;
+        height: 60px;
+    }
+    .icon-diamond{
+        background-color: rgba(var(--n8), 1);
+        bottom: -25px;
+        i{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .active-status{
+        &::before {
+            content: '';
+            z-index: 1;
+            position: absolute;
+            background-color: #219653;
+            right: -15px;
+            border-radius: 50%;
+            width: 8px;
+            height: 8px;
+        }
+    }
+    .chat-vendor{
+        border-top: 1px dotted rgba(var(--p2), 1);
+        border-bottom: 1px dotted rgba(var(--p2), 1);
+    }
+    .info-area{
+        border-radius: 40px;
+        background: rgba(var(--s1), 0.2);
+        .icon-area{
+            background-color: rgba(var(--p2), 1);
+            min-width: 40px;
+            height: 40px;
+            i{
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+    .show-result{
+        .switch-single{
+            background-color: rgba(var(--n7), 1);
+            span{
+                color: rgba(var(--p2), 1);
+            }
+        }
+        button span{
+            width: 24px;
+            height: 24px;
+            background-color: rgba(var(--p2), 1);
+            color: rgba(var(--n8), 1);
+        }
+    }
+    &.second{
+        .icon-diamond, .icon-wrap{
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+
+// wedding-factory
+.discover-wedding-factory{
+    overflow: initial;
+    margin-top: -120px;
+    .tabContents{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s6), 0.1);
+    }
+    .sidebar-area{
+        background-color: rgba(var(--n8), 1);
+        border-radius: 60px;
+    }
+    .head-content{
+        border-radius: 60px;
+        background: rgba(var(--n1), 0.6);
+        box-shadow: var(--shadow-sm);
+        h2 span{
+            color: rgba(var(--p2), 1);
+        }
+    }
+    .head-wrapper{
+        border-radius: 60px;
+        background-color: rgba(var(--n8), 1);
+    }
+    .head-nav{
+        border-radius: 58px;
+        background: rgba(var(--s5), 1);
+        .box-style.box-second.second-alt{
+            border-radius: 42px;
+            background: rgba(var(--n1), 1);
+            &:hover, &.active{
+                background: rgba(var(--p2), 1);
+                i, span{
+                    color: rgba(var(--n8), 1);
+                }
+            }
+        }
+    }
+    .leave-comment{
+        border-radius: 60px;
+        border: 1px solid rgba(var(--s6), 0.1);
+        background: rgba(var(--n8), 1);
+        .star-area i {
+            color: rgba(var(--p1), 1);
+        }
+    }
+}
+
+// contact-us-today
+.contact-us-today{
+    background-color: rgba(var(--n4), 1);
+}
+
+// wedding-supplier-packages
+.wedding-supplier-packages{
+    margin-top: -44px;
+    &::before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        background-color: rgba(var(--n7), 1);
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .single-input{
+        input, textarea, .nice-select{
+            border-radius: 10px;
+        }
+    }
+    .top-bar{
+        background-color: rgba(var(--n8), 1);
+    }
+}
+
+// contact-us
+.contact-us{
+    .info-area{
+        background-color: rgba(var(--n1), 1);
+    }
+}
+
+// get-in-touch
+.get-in-touch{
+    background-image: url(../images/get-in-touch-bg.png);
+    background-position: left bottom,bottom right 250px,right bottom;
+    background-repeat: no-repeat;
+    .main-content{
+        background-color: rgba(var(--n8), 1);
+        border: 2px solid rgba(var(--p2), 1);
+    }
+    .shape-1{
+        left: -24px;
+        top: -24px;
+    }
+    .shape-2{
+        right: -28px;
+        top: -38px;
+        transform: rotate(120deg);
+    }
+    .shape-3{
+        left: -28px;
+        bottom: -38px;
+        transform: rotate(-70deg);
+    }
+    .shape-4{
+        right: -38px;
+        bottom: -24px;
+        transform: rotate(180deg);
+    }
+    &.second{
+        background-image: url(../images/get-in-touch-sec-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &.third{
+        .img-area{
+            img{
+                max-width: 140px;
+                margin: 0 -24px;
+            }
+        }
+    }
+}
+
+// instant-assistance
+.instant-assistance{
+    margin-top: -110px;
+    .main-content{
+        background: rgba(var(--n1), 1);
+        box-shadow: var(--shadow-md);
+    }
+    li{
+        margin-top: -20px;
+    }
+}
+
+.app-facility{
+    background: rgba(var(--n1), 1);
+    .single-item{
+        background: rgba(var(--s3), 0.3);
+        color: rgba(var(--s3), 0.3);
+        transition: all 0.5s;
+        .icon-area{
+            width: 80px;
+            height: 80px;
+            background: rgba(var(--s2), 1);
+            transition: all 0.5s;
+        }
+        h3{
+            color: rgba(var(--n7), 1);
+            transition: all 0.5s;
+        }
+        &:hover{
+            background: rgba(var(--s2), 1);
+            .icon-area{
+                border-radius: 80px;
+                background: rgba(var(--n1), 1);
+            }
+            h3{
+                color: rgba(var(--p2), 1);
+            }
+            h5{
+                color: rgba(var(--n1), 1);
+            }
+            p{
+                color: rgba(var(--n7), 1);
+            }
+        }
+    }
+}
+
+// Celebration of Love
+.celebration-love{
+    .icon-area{
+        i{
+            font-family: 'Material Symbols Outlined';
+        }
+    }
+    .single-area{
+        border: 1px solid rgba(var(--p2), 0.5);
+        transition: all 0.5s ease-in-out;
+        &:hover{
+            border-color: transparent;
+            background-color: rgba(var(--s2), 1);
+            i, h4, p{
+                color: rgba(var(--n8), 1);
+            }
+        }
+    }
+}
+
+// circle-text-date
+.circle-text-date{
+    .img-area{
+        img{
+            margin: 0 -24px;
+        }
+    }
+}
+
+// history-our-love
+.history-our-love{
+    .swiper-slide{
+        background-color: rgba(var(--n4), 1);
+        border-radius: 327px;
+    }
+}
+
+// kind-patient
+.kind-patient{
+    .container-fluid{
+        background-image: url(../images/kind-patient-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: -1;
+            background-color: rgba(var(--s6), 0.6);
+        }
+    }
+    .swiper-slide{
+        background-color: rgba(var(--n4), 1);
+        border-radius: 327px;
+    }
+}
+
+// Privacy Content
+.privacy-content{
+    overflow-x: initial;
+    .top-wrapper{
+        margin-bottom: -28px;
+        h4{
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        p{
+            margin-bottom: 30px;
+        }
+        ul{
+            margin-bottom: 20px;
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .safe-data{
+        margin: 55px 0;
+        ul{
+            list-style-type: decimal;
+            margin-left: 18px;
+            li{
+                padding-left: 15px;
+                &::marker{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

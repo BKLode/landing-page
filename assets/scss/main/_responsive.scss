@@ -1,0 +1,1367 @@
+// Responsive Area
+@media (max-width: 1899px) {
+	.footer-section {
+		.shape-area img{
+			width: 8%;
+		}
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 300px;
+	}
+}
+
+@media (max-width: 1799px) {
+	.banner-section.index-four .left-side {
+		left: -60px;
+		width: 150%;
+	}
+	.banner-section.index-four .right-side {
+		width: 145%;
+		left: -100px;
+	}
+	.why-choose-us.fifth .sec-img {
+		width: 20%;
+	}
+	.why-choose-us.fifth .shape-3 {
+		right: -30%;
+	}
+	.how-it-work.second {
+		overflow: initial;
+		background-image: url(../images/how-works-illus.png);
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-size: 20%;
+	}
+	.banner-section.planning-tools-2 .banner-content {
+		padding: 150px 0;
+	}
+	.banner-section.blog-banner{
+		background-size: 30% 80%, 140%;
+	}
+	.banner-section.contact-banner,
+	.banner-section.wedding-packages {
+		background-position: left bottom,bottom right 120px,right bottom;
+		background-size: 30% 80%, 24%, 15%;
+	}
+	.banner-section.refer-reward-banner {
+		background-size: 40%;
+	}
+}
+
+@media (max-width: 1699px) {
+	.footer-section {
+		.shape-area{
+			width: 15%;
+		}
+	}
+	.wedding-vendors .main-content::before {
+		width: 95%;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 200px;
+	}
+	.explore-wedding .right-side,
+	.explore-wedding .left-side {
+		width: 12%;
+	}
+	.banner-section .shape-area{
+		img{
+			width: 60%;
+		}
+	}
+	.banner-section.planning-tools-2 .banner-content {
+		padding: 115px 0;
+	}
+}
+
+@media (max-width: 1599px) {
+	.idea-and-tips .shape-single,
+	.trending-wedding .shape-single{
+		width: 20%;
+	}
+	.call-to-action .icon-area.third {
+		bottom: 25%;
+		right: 0;
+	}
+	.footer-section {
+		.shape-area{
+			width: 10%;
+		}
+	}
+	.banner-category .shape-area img{
+		width: 60px;
+	}
+	.footer-section {
+		.shape-area img{
+			width: 6%;
+		}
+	}
+	.banner-section.planning-tools {
+		background-position: left bottom, right bottom;
+		background-size: 30% 80%, 25% 80%;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 150px;
+		bottom: 25%;
+	}
+	.wedding-listing.fourth::before {
+		width: 95%;
+	}
+	.how-it-work.second {
+		background-size: 15%;
+	}
+	.faqs-section.second::before {
+		width: 95%;
+	}
+}
+
+@media (max-width: 1499px) {
+	.wedding-vendors .main-content::before {
+		width: 100%;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 130px;
+	}
+	.why-choose-us.fourth .main-content {
+		width: 100%;
+	}
+	.banner-section.index-four .banner-content {
+		padding: 125px 0;
+	}
+	.banner-section.index-four.wedding-forums .banner-content {
+		padding: 75px 0 220px;
+	}
+	.banner-section.index-six {
+		.shape-1,
+		.shape-2{
+			width: 35%;
+		}
+	}
+	.banner-section .shape-area{
+		img{
+			width: 40%;
+		}
+	}
+	.new-collection {
+		background-position: center left 500px;
+	}
+	.banner-section.wedding-venues {
+		background-size: 10% 100%, 10% 100%, 50%;
+	}
+	.wedding-listing.five::before {
+		width: 100%;
+	}
+	.banner-section.wedding-factory {
+		background-size: 20% 80%, 50%, 12%;
+	}
+	.banner-section.couples-banner .abs-area {
+		right: -12%;
+		top: initial !important;
+		bottom: 0;
+	}
+}
+
+@media (max-width: 1399px) {
+	.banner-section.index-one .section-img .abs-area{
+		left: -20px;
+		img{
+			width: 120px;
+		}
+	}
+	.banner-section.index-one .section-img {
+		margin-top: 0;
+	}
+	.memories-forever .img-area:nth-child(3) {
+		top: 30px;
+		right: 0;
+	}
+	.memories-forever .btn-area {
+		right: 0;
+	}
+	.dream-wedding .counter-item {
+		width: 210px;
+		height: 210px;
+	}
+	.banner-section.index-three .shape-area img{
+		width: 50%;
+	}
+	.features {
+		.col-xxl-3{
+			border-top: 1px solid rgba(var(--n7), 0.3);
+			border-bottom: 1px solid rgba(var(--n7), 0.3);
+		}
+	}
+	.banner-section.index-four .left-side {
+		position: initial !important;
+
+	}
+	.banner-section.index-four .right-side {
+		position: initial !important;
+	}
+	.banner-section.index-four .left-side {
+		position: absolute !important;
+		width: 65%;
+		left: 0;
+	}
+	.banner-section.index-four .right-side {
+		width: 65%;
+		margin: auto;
+	}
+	.banner-section.index-four .banner-content {
+		padding: 115px 0 200px;
+	}
+	.footer-section.third .contact-info {
+		border-radius: 40px;
+	}
+	.banner-section.index-five .banner-content .img-areas{
+		position: initial !important;
+	}
+	.banner-section.index-five .banner-content {
+		padding: 130px 0;
+	}
+	.planning-features .cus-mar::before {
+		width: 619px;
+		height: 619px;
+	}
+	.banner-section.index-six .banner-content {
+		padding-top: 100px;
+	}
+	.banner-section.wedding-forums .shape {
+		top: 6%;
+		right: 10%;
+	}
+	.banner-section.planning-tools-2 .banner-content {
+		padding: 80px 0;
+	}
+	.special-offer .special-offer {
+		top: 40px;
+		left: -75px;
+	}
+	.special-offer .single-box .max-un{
+		max-width: 100% !important;
+	}
+	.banner-section.planning-tools-3 .banner-content {
+		padding: 70px 0;
+	}
+	.banner-section.planning-tools-3 .banner-content::before {
+		height: 100%;
+	}
+	.shop-section.second{
+		.single-box {
+			flex: 0 0 calc(100% / 2 - 15px);
+			max-width: calc(100% / 2 - 15px);
+			&.list{
+				flex: 0 0 calc(100% / 1 - 15px);
+				max-width: calc(100% / 1 - 15px);
+			}
+		}
+	}
+	.shop-details .shop-details-slider, .shop-details .shop-details-carousel {
+		height: 500px;
+	}
+	.wedding-venues-section .single-box {
+        flex: 0 0 calc(100% / 2 - 15px);
+        max-width: calc(100% / 2 - 15px);
+		&.list {
+			flex-wrap: wrap;
+			.end-area, .mid-area, .wedding-listing-slider {
+				width: 50%;
+			}
+			.end-area{
+				margin-top: 16px;
+			}
+		}
+	}
+	.wedding-venues-details .single-area .head-area{
+		width: 100% !important;
+	}
+	.vendor-profile .single-box .img-area img{
+		width: 50%;
+	}
+	.discover-wedding-factory .head-nav {
+		border-radius: 24px;
+	}
+	.discover-wedding-factory .wedding-venues-details .head-area.w-50{
+		width: 100% !important;
+	}
+	.counter-part .main-content img{
+		position: initial !important;
+	}
+	.banner-section.refer-reward-banner .banner-content {
+		padding: 70px 0 170px;
+	}
+	.banner-section.couples-banner .banner-content {
+		padding: 0;
+		.abs-img-area {
+			position: relative !important;
+		}
+	}
+}
+
+@media (max-width: 1199px) {
+	h1, h1>a {
+		font-size: 57px;
+		line-height: 74.1px;
+	}
+	h2, h2>a {
+		font-size: 43px;
+		line-height: 55.9px;
+	}
+	.preloader {
+		background-size: 30%;
+	}
+
+	.banner-section.index-one .section-img .img-area:nth-child(2) {
+		margin-bottom: -160px;
+	}
+	.banner-section.index-three .banner-content {
+		padding: 110px 0 130px;
+	}
+	.memories-forever .img-area{
+		img{
+			width: 50%;
+		}
+	}
+	.dream-wedding{
+		.img-area img{
+			max-width: 100%;
+		}
+	}
+	.call-to-action{
+		&::before{
+			width: 100%;
+			height: 100%;
+		}
+		&.pt-120.pb-120{
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+	}
+	.banner-section.index-seven .banner-content {
+		padding: 80px 0;
+	}
+	.box-style{
+		&.box-third {
+			width: 250px;
+			height: 250px;
+			i{
+				width: 60px;
+				height: 60px;
+			}
+		}
+		&.box-third.eighth-alt{
+			width: 40px;
+			height: 40px;
+			i{
+				font-size: 18px;
+			}
+		}
+	}
+	.wedding-vendors .main-content {
+		margin-top: -170px;
+	}
+	.how-it-work::before {
+		background-position: bottom left, bottom right;
+		background-size: 20%;
+	}
+	.blog-section::before {
+		height: 40%;
+	}
+	.footer-section {
+		.shape-area img{
+			width: 4%;
+		}
+	}
+	.banner-section.index-three .shape-area img{
+		width: 40%;
+	}
+	.banner-section.index-three .img-area {
+		margin-left: 0;
+	}
+	.banner-section .logo-outline {
+		bottom: -125px !important;
+	}
+	.banner-section.index-four .right-side {
+		width: 90%;
+	}
+	.banner-section .right-side{
+		position: relative !important;
+		img{
+			max-width: 100% !important;
+		}
+	}
+	.app-download .bg-area::before {
+		height: 100%;
+	}
+	.banner-section.become-vendor::before {
+		height: 68%;
+	}
+	.banner-section.become-vendor .banner-content {
+		padding: 90px 0 0;
+	}
+
+	.sidebar-toggler {
+		position: relative;
+		.cus-scrollbar{
+			top: 40px;
+		}
+		.sidebar-head{
+			position: absolute;
+			overflow: hidden;
+			height: 24px;
+			z-index: 2;
+			right: 0;
+			top: 0;
+			&.active{
+				.side-wrapper{
+					visibility: visible;
+					opacity: 1;
+					transform: translateX(0px);
+				}
+			}
+			.side-wrapper{
+				transform: translateX(200px);
+				opacity: 0;
+				right: 0;
+				background-color: rgba(var(--n8), 1);
+				visibility: hidden;
+				transition: 0.5s;
+			}
+			.sidebar-area{
+				width: 100%;
+			}
+			.sidebar-wrapper{
+				min-width: 310px;
+				max-width: 310px;
+			}
+			&.primary-sidebar{
+				left: 0;
+				right: initial;
+				&.active{
+					.side-wrapper{
+						transform: translateX(0px);
+					}
+				}
+				.side-wrapper{
+					transform: translateX(-200px);
+				}
+			}
+		}
+	}
+	.blog-details .sidebar-toggler {
+		&::before {
+			position: absolute;
+			content: "";
+			width: 100%;
+			height: 50%;
+			background-color: rgba(var(--n7), 1);
+			top: -10px;
+			left: 0;
+			z-index: -1;
+		}
+	}
+	.banner-section.planning-tools-2 .banner-content {
+		padding: 70px 0;
+	}
+	.new-collection {
+		background-position: center left 500px;
+	}
+	.special-offer .special-offer {
+		top: 40px;
+		left: -55px;
+	}
+	.new-offer .single-box .text-box {
+		position: relative !important;
+		width: 100% !important;
+	}
+	.shop-section.second{
+		.single-box {
+			flex: 0 0 calc(100% / 3 - 15px);
+			max-width: calc(100% / 3 - 15px);
+			&.list{
+				flex: 0 0 calc(100% / 2 - 15px);
+				max-width: calc(100% / 2 - 15px);
+			}
+		}
+	}
+	.wedding-venues-section .single-box {
+        flex: 0 0 calc(100% / 3 - 15px);
+        max-width: calc(100% / 3 - 15px);
+		&.list{
+			flex: 0 0 calc(100% / 1 - 15px);
+			max-width: calc(100% / 1 - 15px);
+			.wedding-listing-slider {
+				width: 30%;
+			}
+			.end-area, .mid-area{
+				width: 35%;
+			}
+		}
+	}
+	.map-area {
+		height: 100% !important;
+		width: 100%;
+	}
+	.sidebar-common .btn-area .box-style.w-75{
+		width: 100% !important;
+	}
+	.request-pricing {
+		border-radius: 40px;
+	}
+	.banner-section.wedding-factory {
+		background-size: 0,35%,15%;
+		.banner-content {
+			padding: 28px 0 80px;
+		}
+	}
+	.banner-section.blog-banner {
+		background-size: 30% 80%, 200%;
+	}
+	.banner-section.index-four.planning-app-banner .banner-content {
+		padding: 80px 0 170px;
+	}
+	.circle-text.third {
+		width: 600px;
+		height: 600px;
+		.text span {
+			transform-origin: 0 300px;
+		}
+	}
+	.circle-text-date .img-area img {
+		width: 120px;
+	}
+	.faqs-section.second::before {
+		width: 98%;
+	}
+}
+
+@media (max-width: 991px) {
+	// Normalize
+	.display-one {
+		font-size: 72px;
+		line-height: 86.4px;
+	}
+	
+	.display-two {
+		font-size: 64px;
+		line-height: 76.8px;
+	}
+	
+	.display-three {
+		font-size: 56px;
+		line-height: 67.2px;
+	}
+	
+	.display-four {
+		font-size: 48px;
+		line-height: 46.4px;
+	}
+	
+	.display-five {
+		font-size: 42px;
+		line-height: 54.6px;
+	}
+	
+	.display-six {
+		font-size: 32px;
+		line-height: 38.4px;
+	}
+	
+	.fs-one,
+	h1,
+	h1 > a {
+		font-size: 40px;
+		line-height: 48px;
+	}
+	
+	.fs-two,
+	h2,
+	h2 > a {
+		font-size: 32px;
+		line-height: 38.4px;
+	}
+	
+	.fs-three,
+	h3,
+	h3 > a {
+		font-size: 24px;
+		line-height: 31.2px;
+	}
+	
+	.fs-four,
+	h4,
+	h4 > a {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	
+	.fs-five,
+	h5,
+	h5 > a {
+		font-size: 16px;
+		line-height: 20.8px;
+	}
+	
+	.fs-six,
+	h6,
+	h6 > a {
+		font-size: 14px;
+		line-height: 18.8px;
+	}
+	
+	.fs-seven {
+		font-size: 13px;
+		line-height: 18.8px;
+	}
+	
+	.fs-eight {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	
+	table thead tr th {
+		font-size: 15px;
+		line-height: 20.8px;
+	}
+	
+	a,
+	p,
+	span,
+	button,
+	label,
+	li {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.banner-section.about {
+		background-image: none;
+	}
+	.section-header {
+		margin-bottom: 40px;
+	}
+	
+	.title {
+		margin-bottom: 20px;
+	}
+
+	.banner-section .overlay .sec-img{
+		display: none;
+	}
+	.banner-section.index-three .banner-content {
+		padding: 80px 0 90px;
+	}
+	.banner-section.index-four .banner-content {
+		padding: 80px 0 170px;
+	}
+	.banner-section.inner-banner .banner-content {
+		padding: 160px 0 100px;
+	}
+	.sec-img {
+		text-align: center;
+		margin-top: 30px;
+		max-width: 65%;
+		img{
+			max-width: 100% !important;
+		}
+	}
+	.banner-section.index-one .section-img .abs-area {
+		bottom: 5%;
+	}
+	.banner-section.index-one .section-img .circle-text {
+		right: 20px;
+		top: calc(35%);
+	}
+	.why-choose-us .sec-img {
+		max-width: 45%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.call-to-action.pt-120.pb-120{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.top-sticky {
+		top: initial;
+	}
+	.footer-section .left-side {
+		background-image: none;
+	}
+	.banner-section.wedding-forums .nice-select .list {
+		top: 100%;
+		bottom: inherit;
+	}
+	.banner-section.index-two .bg-section::after,
+	.banner-section.index-two .bg-section::before {
+		left: 0;
+	}
+	.wedding-vendors .main-content {
+		margin-top: -110px;
+	}
+	.deal-wedding-carousel{
+		margin-bottom: -30px;
+	}
+	.why-choose-us.second .icon-area {
+		min-width: 45px;
+		height: 45px;
+		&::before {
+			bottom: -60px;
+			height: 50px;
+		}
+	}
+	.footer-section.second{
+		.border-start{
+			border-color: transparent !important;
+		}
+		.footer-bottom{
+			border-top: 1px solid rgba(var(--s5), 0.5);
+
+		}
+	}
+	.footer-section {
+		.shape-area img{
+			display: none;
+		}
+	}
+	.unlock-secrets .img-area .max-un {
+		max-width: 280%;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 100px;
+		letter-spacing: 30px;
+	}
+	.why-choose-us.third .cus-border{
+		border-color: transparent !important;
+	}
+	.why-choose-us.fourth .right-area {
+		position: initial;
+	}
+	.call-to-action.second .main-content {
+		margin-top: -50px;
+	}
+	.footer-section.third {
+		background-image: none, url(../images/footer-bg.png);
+	}
+	.banner-section.index-five .banner-content {
+		padding: 80px 0;
+	}
+	.watch-video{
+		background-image: none;
+	}
+	.watch-video .logo-outline img {
+		width: 170px;
+	}
+	.banner-section.become-vendor .banner-content {
+		padding: 70px 0 0;
+	}
+	.video-section .img-area{
+		position: initial !important;
+		margin-top: 25px;
+		img{
+			max-width: 100% !important;
+		}
+	}
+	.banner-section.wedding-attire .banner-content {
+		padding: 80px 0 140px;
+	}
+	.banner-section.wedding-attire .abs-content-box {
+		top: 40px;
+	}
+	.recent-discussions .create-discussions{
+		border-radius: 20px !important;
+	}
+	.banner-section.wedding-attire-profile .banner-content {
+		padding: 80px 0 0;
+	}
+	.blog-details .ul-decimal {
+		column-count: 1;
+	}
+	.banner-section.planning-tools-2 .banner-content {
+		padding: 60px 0;
+	}
+	.new-collection {
+		background-position: center left 600px;
+	}
+	.special-offer .special-offer {
+		top: 40px;
+		left: -105px;
+	}
+	.shop-section{
+		.single-box {
+			flex: 0 0 calc(100% / 3 - 15px);
+			max-width: calc(100% / 3 - 15px);
+			&.list{
+				flex: 0 0 calc(100% / 2 - 15px);
+				max-width: calc(100% / 2 - 15px);
+			}
+		}
+	}
+	.shop-details .shop-details-slider, .shop-details .shop-details-carousel {
+		height: 600px;
+	}
+	.shop-details {
+		overflow: hidden;
+	}
+	.shop-cart .shop-details {
+		overflow: initial;
+	}
+	.shop-cart {
+		overflow: hidden;
+	}
+	.wedding-venues-section .single-box {
+        flex: 0 0 calc(100% / 2 - 15px);
+        max-width: calc(100% / 2 - 15px);
+		&.list {
+			flex-wrap: wrap;
+			.end-area, .mid-area, .wedding-listing-slider {
+				width: 50%;
+			}
+			.end-area{
+				margin-top: 16px;
+			}
+		}
+	}
+	.enquiry-through .single-box .icon-area,
+	.wedding-venues-details .question-area .icon-box {
+		min-width: 60px;
+		width: 60px;
+		height: 60px;
+	}
+	.instant-assistance {
+		margin-top: -40px;
+	}
+	.app-facility .single-item .icon-area {
+		width: 60px;
+		height: 60px;
+	}
+	.counter-part .counter-area::before {
+		width: 180px;
+		height: 180px;
+	}
+	.banner-section.refer-reward-banner{
+		background-image: none;
+	}
+	.banner-section.couples-banner .abs-img-area{
+		.box-style.box-third.eleven-alt {
+			width: 60px;
+			height: 60px;
+		}
+		.icon-box {
+			width: 70px;
+			height: 70px;
+			bottom: 0;
+			left: 0;
+		}
+		img{
+			border-bottom-left-radius: 50px;
+		}
+	}
+	.features .top-area {
+		transform: translateY(125%);
+	}
+}
+
+@media (max-width: 767px) {
+	.input-area {
+		padding: 15px 10px;
+	}
+	.circle-text {
+		width: 110px;
+		height: 110px;
+		.text {
+			span {
+				transform-origin: 0 55px;
+			}
+			p{
+				transform: translate(50%, 0);
+			}
+		}
+	}
+	.banner-section.index-one .index-search {
+		border-radius: 15px;
+	}
+	.features-section {
+		.icon-area {
+			min-width: 110px;
+			min-height: 110px;
+			img{
+				width: 60px;
+			}
+		}
+		.single-box {
+			border-radius: 90px;
+			max-width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.memories-forever .img-area,
+	.memories-forever .btn-area{
+		position: initial !important;
+		img{
+			width: 100%;
+		}
+	}
+	.dream-wedding .counter-item {
+		width: 190px;
+		height: 190px;
+	}
+	.idea-and-tips .shape-single,
+	.trending-wedding .shape-single{
+		width: 10%;
+	}
+	.call-to-action .icon-area {
+		width: 70px;
+		height: 70px;
+		i {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	.dream-wedding .single-progress .circle-area img{
+		display: none;
+	}
+	.wedding-listing.fourth::before {
+		width: 95%;
+	}
+	.box-style{
+		&.box-third.fifth-alt {
+			width: 60px;
+			height: 60px;
+		}
+
+		&.box-third {
+			width: 150px;
+			height: 150px;
+			i{
+				width: 50px;
+				height: 50px;
+			}
+		}
+		&.box-third.third-alt {
+			width: 125px;
+			height: 125px;
+			i{
+				width: 40px;
+				height: 40px;
+			}
+		}
+		&.box-third.sixth-alt {
+			width: 45px;
+			height: 45px;
+		}
+	}
+	.wedding-vendors .main-content {
+		margin-top: -90px;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 80px;
+	}
+	.box-style.box-third.tenth-alt {
+		width: 60px;
+		height: 60px;
+	}
+	.check-list .icon-area {
+		width: 60px;
+		height: 60px;
+	}
+	.banner-category .swiper-backface-hidden .swiper-slide {
+		transform: initial;
+	}
+	.banner-section.planning-tools {
+		background-image: none;
+	}
+	.banner-section.planning-tools .banner-content {
+		padding: 70px 0;
+	}
+	.banner-section.become-vendor::before {
+		background-image: none;
+	}
+	.banner-section.become-vendor .form-wrapper {
+		border-radius: 30px;
+	}
+	.banner-section.index-four.wedding-forums .banner-content {
+		padding: 75px 0 570px;
+	}
+	.banner-section.wedding-attire .abs-content-box {
+		position: relative !important;
+		a{
+			width: initial !important;
+		}
+	}
+	.recent-discussions.wedding-attire {
+		margin-top: -35px;
+	}
+	.recent-discussions .section-head .icon-area {
+		width: 80px;
+		height: 80px;
+	}
+	.recent-discussions .create-discussions .icon-area {
+		min-width: 50px;
+		max-width: 50px;
+		height: 50px;
+	}
+	.blog-details .sidebar-toggler {
+		margin-top: -25px;
+	}
+	.special-offer .special-offer {
+		top: 35px;
+		left: -75px;
+	}
+	.special-offer .single-box .info-area{
+		position: relative !important;
+		width: 100% !important;
+	}
+	.shop-section.second,
+	.shop-section{
+		.single-box {
+			flex: 0 0 calc(100% / 2 - 15px);
+			max-width: calc(100% / 2 - 15px);
+			&.list{
+				flex: 0 0 calc(100% / 1 - 15px);
+				max-width: calc(100% / 1 - 15px);
+			}
+		}
+	}
+	.shop-details .shop-details-slider, .shop-details .shop-details-carousel {
+		height: 480px;
+	}
+	.shop-details .singleTab .nav-links.active::before {
+		bottom: -8px;
+	}
+	.shop-details .additional-info li span:first-child {
+		width: 100%;
+	}
+	.banner-section.about-us .section-area p{
+		width: 100% !important;
+	}
+	.banner-section.wedding-venues .banner-content {
+		padding: 28px 0 70px;
+	}
+	.wedding-venues-section .single-box {
+        flex: 0 0 calc(100% / 1 - 15px);
+        max-width: calc(100% / 1 - 15px);
+	}
+	.wedding-venues-section .single-box.list .end-area,
+	.wedding-venues-section .single-box.list .mid-area,
+	.wedding-venues-section .single-box.list .wedding-listing-slider {
+		width: 100%;
+	}
+	.wedding-venues-details .faq-area ul {
+		column-count: 2;
+	}
+	.wedding-venues-details .single-area {
+		border-radius: 30px;
+	}
+	.wedding-venues-details .map-area iframe {
+		height: 300px;
+	}
+	.banner-section.contact-banner,
+	.banner-section.wedding-packages {
+		background-size: 0;
+		.banner-content {
+			padding: 28px 0 100px;
+		}
+	}
+	.banner-section.blog-banner {
+		background-size: 0, 500%;
+		background-position: top center;
+		.banner-content{
+			padding: 28px 0 70px;
+		}
+	}
+	.banner-section.contact-banner .banner-content{
+		padding: 28px 0 70px;
+	}
+	.instant-assistance .main-content {
+		border-radius: 30px !important;
+	}
+	.banner-section.index-one .index-search button{
+		width: 100%;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	.circle-text.third {
+		width: 500px;
+		height: 500px;
+		.text span {
+			transform-origin: 0 250px;
+		}
+	}
+	.circle-text-date .img-area img {
+		margin: 0 -12px;
+		width: 90px;
+	}
+}
+
+@media (max-width: 575px) {
+	.display-one {
+		font-size: 56px;
+		line-height: 67.2px;
+	}
+	
+	.display-two {
+		font-size: 48px;
+		line-height: 46.4px;
+	}
+	
+	.display-three {
+		font-size: 42px;
+		line-height: 54.6px;
+	}
+	
+	.display-four {
+		font-size: 32px;
+		line-height: 38.4px;
+	}
+	
+	.display-five {
+		font-size: 24px;
+		line-height: 31.2px;
+	}
+	
+	.display-six {
+		font-size: 32px;
+		line-height: 38.4px;
+	}
+	
+	.section-header {
+		margin-bottom: 35px;
+	}
+	.title {
+		margin-bottom: 15px;
+	}
+	.sub-title {
+		margin-bottom: 14px;
+	}
+
+	.banner-section.index-one .index-search .v-border {
+		height: 1px;
+		width: 100%;
+	}
+	.banner-section.index-one{
+		overflow: hidden;
+		.nice-select .list{
+			position: absolute;
+			top: 0;
+		}
+	}
+	.dream-wedding .counter-item {
+		width: 140px;
+		height: 140px;
+	}
+	.call-to-action .icon-area.third {
+		bottom: 15%;
+		right: 5%;
+	}
+	.call-to-action .icon-arrow {
+		width: 45px;
+		height: 45px;
+	}
+	.faqs-section .accordion-button {
+		padding: 12px 20px;
+		padding-right: 50px;
+		&::after {
+			right: 15px;
+			font-size: 16px;
+			width: 32px;
+			height: 32px;
+		}
+	}
+	.footer-section .footer-form button {
+		width: 40px;
+		height: 40px;
+	}
+	.how-it-work .icon-area,
+	.banner-category .swiper-slide .icon-area {
+		width: 80px;
+		height: 80px;
+		img{
+			width: 40px;
+		}
+	}
+	.wedding-vendors .main-content {
+		margin-top: -50px;
+	}
+	.blog-section::before {
+		height: 35%;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 50px;
+	}
+	.wedding-planner .icon-area {
+		width: 55px;
+		height: 55px;
+	}
+	.how-it-work.second .icon-area {
+		width: 60px;
+		height: 60px;
+	}
+	.exclusive-features .icon-box {
+		min-width: 20px;
+		height: 20px;
+	}
+	.banner-section.index-four.wedding-forums .left-side {
+		width: 90%;
+	}
+	.recent-discussions .create-discussions form{
+		flex-wrap: wrap;
+	}
+	.collection-section .best-package {
+		width: 130px;
+		height: 130px;
+	}
+	.banner-section.wedding-venues {
+		background-size: 0;
+	}
+	.wedding-package-details .add-ons-area .head-content {
+		border-radius: 24px !important;
+	}
+	.blog-details .main-content {
+		margin-top: 0;
+		padding-top: 32px !important;
+	}
+	.blog-content .negative-margin {
+		width: 95%;
+	}
+	.counter-part .counter-area::before {
+		width: 150px;
+		height: 150px;
+	}
+	.circle-text.third {
+		width: 300px;
+		height: 300px;
+		.text span {
+			transform-origin: 0 150px;
+		}
+	}
+	.get-in-touch.third .img-area img {
+		max-width: 90px;
+		margin: 0 -12px;
+	}
+	.faqs-section.second::before {
+		width: 100%;
+	}
+}
+
+@media (max-width: 480px) {
+	.features-section .col-6,
+	.plan-your-wedding .col-8,
+	.wedding-listing .col-8{
+		width: 100% !important;
+	}
+	.dream-wedding .counter-item {
+		width: 130px;
+		height: 130px;
+	}
+	.why-choose-us .icon-area {
+		min-width: 66px;
+		height: 66px;
+	}
+	.wedding-vendors .nav-links .icon-arrow {
+		width: 40px;
+		height: 40px;
+	}
+	.banner-section.index-three .banner-text span {
+		font-size: 30px;
+	}
+	.banner-section.index-four .right-side {
+		width: 90%;
+	}
+	.plan-your-wedding .single-box .image-area img {
+		max-width: 150px;
+		max-height: 150px;
+	}
+	.pagination .page-item .page-link {
+		min-width: 25px;
+		min-height: 25px;
+	}
+	.banner-section.wedding-forums .people button {
+		width: 45px;
+		height: 45px;
+	}
+	.blog-details .reply-items {
+		width: 90%;
+	}
+	.special-offer .special-offer {
+		top: 35px;
+		left: -50px;
+	}
+	.shop-section.second,
+	.shop-section{
+		.single-box {
+			flex: 0 0 calc(100% / 1 - 15px);
+			max-width: calc(100% / 1 - 15px);
+			&.list{
+				display: grid;
+				.text-area{
+					text-align: center;
+				}
+				.single{
+					justify-content: center;
+				}
+			}
+		}
+	}
+	.shop-details .shop-details-slider, .shop-details .shop-details-carousel {
+		height: 350px;
+	}
+	.wedding-package-details .parent-ul,
+	.wedding-venues-details .faq-area ul {
+		column-count: 1;
+	}
+	.wedding-venues-details .map-area iframe {
+		height: 200px;
+	}
+	.wedding-venues-details .order-by{
+		width: 75% !important;
+	}
+}
+
+@media (max-width: 375px) {
+	.dream-wedding {
+		.circle-area{
+			width: 145px;
+		}
+		.col-6{
+			width: 100% !important;
+		}
+		.col-md-10{
+			gap: 18px;
+		}
+	}
+	.recent-discussions .video-wrapper .col-6{
+		width: 100% !important;
+	}
+	.wedding-special .col-8,
+	.app-facility .col-8,
+	.counter-section .col-8{
+		width: 100% !important;
+	}
+	.footer-section{
+		.col-6{
+			width: 100% !important;
+		}
+	}
+	.special-offer .special-offer {
+		top: 20px;
+		left: -35px;
+	}
+	.shop-details .shop-details-slider, .shop-details .shop-details-carousel {
+		height: 300px;
+	}
+	.banner-section.index-four .abs-area.second {
+		margin-left: -48px;
+	}
+}
